@@ -12,7 +12,7 @@ export default function Navbar({ setShowAuthModal }) {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16 items-center">
           <div className="flex items-center">
-            <img src="/logo.png" className="h-8 w-auto" alt="QR Generator" />
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjewbaqTCgB3WYaKNiqNWs9VquPmPAvX_jXg&s" className="h-8 w-auto" alt="QR Generator" />
             <div className="hidden md:flex space-x-8 ml-10">
               <button className="text-gray-700 hover:text-indigo-600">Features</button>
               <button className="text-gray-700 hover:text-indigo-600">Pricing</button>

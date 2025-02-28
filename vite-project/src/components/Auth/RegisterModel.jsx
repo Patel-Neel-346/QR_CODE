@@ -23,8 +23,8 @@ export default function RegisterModal({ show, onClose }) {
   if (!show) return null
 
   return (
-    <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center p-4">
-      <div className="bg-white rounded-xl max-w-md w-full p-8">
+    <div className="fixed inset-0 bg-white bg-opacity-50 flex items-center justify-center p-4">
+      <div className="bg-white rounded-xl shadow-lg max-w-md w-full p-8">
         <h2 className="text-2xl font-bold mb-6">Create Account</h2>
         {error && <div className="mb-4 p-3 bg-red-100 text-red-700 rounded-lg">{error}</div>}
 

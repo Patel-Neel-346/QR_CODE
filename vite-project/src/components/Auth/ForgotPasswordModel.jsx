@@ -36,8 +36,8 @@ export default function ForgotPasswordModal({ show, onClose }) {
   if (!show) return null
 
   return (
-    <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center p-4">
-      <div className="bg-white rounded-xl max-w-md w-full p-8">
+    <div className="fixed inset-0 bg-white bg-opacity-50 flex items-center justify-center p-4">
+      <div className="bg-white rounded-xl shadow-lg max-w-md w-full p-8">
         <h2 className="text-2xl font-bold mb-6">
           {step === 1 ? 'Reset Password' : step === 2 ? 'Verify OTP' : 'New Password'}
         </h2>
