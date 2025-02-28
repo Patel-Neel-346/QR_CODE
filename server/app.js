@@ -10,6 +10,12 @@ import QR_Code_Route from "./routes/Qr_Code_route.js";
 const app = express();
 const PORT=process.env.PORT || 3000;
 ConnectDB();
+const corsOptions = {
+    origin: 'https://qr-code-frontend-zeta.vercel.app',
+    optionsSuccessStatus: 200 // Some legacy browsers choke on 204
+  };
+  
+app.use(cors(corsOptions)); 
 
 app.use(cors({
     origin: 'https://qr-code-frontend-zeta.vercel.app',
