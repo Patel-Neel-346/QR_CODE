@@ -1,5 +1,9 @@
 # QR Code Generator
 
+### Live Link Here
+- **QR Code Generator**: qr-code-frontend-zeta.vercel.app
+
+
 ## Overview
 
 This project is a QR Code Generator application built with React and Vite. It allows users to generate, customize, and save QR codes. Users can also register, login, and manage their QR codes.
