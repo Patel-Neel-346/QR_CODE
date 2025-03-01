@@ -1,7 +1,7 @@
 # QR Code Generator
 
 ### Live Link Here
-- **QR Code Generator**: qr-code-frontend-zeta.vercel.app
+- **QR Code Generator**: https://qr-code-frontend-zeta.vercel.app/
 
 
 ## Overview
